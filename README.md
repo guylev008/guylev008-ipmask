@@ -1,11 +1,11 @@
 # ipmask
 
-Also see: https://github.com/nucleardreamer/netrange
+Also see: https://github.com/guylev008/guylev008-ipmask
 
-useful for IPv4-based neighbor discovery on a subnet. ~~get the subnet ifconfig
-netmask.~~ get the public IPv4 interface, including the mac addr and netmask
+useful for masking IPV4 addresses
 
 # Install
+
 ```bash
 $ npm i @guylev008/ipmask
 ```
@@ -21,6 +21,5 @@ ipMask.mask('198.168.4.98');
 ### Params:
 
 #### text (required) - string
+
 The text which contains IP addresses.
-
-
