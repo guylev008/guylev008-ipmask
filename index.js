@@ -1,4 +1,5 @@
 const mask = text => {
+	if (text.length === 0) return;
 	const ips = extractIpFromText(text);
 	let key = Math.floor(Math.random() * 254) + 1;
 	let ipNetworks = {};
