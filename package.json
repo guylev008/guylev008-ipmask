@@ -1,0 +1,23 @@
+{
+  "name": "@guylev008/ipmask",
+  "version": "1.1.0",
+  "description": "Mask every ip address in a given string",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guylev008/guylev008-ipmask"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "ip",
+    "ipmask",
+    "mask"
+  ],
+  "author": "guylev008",
+  "license": "ISC"
+}
